@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-function Button() {
+function Button({route, buttonName}) {
 
     const navigate = useNavigate();
     const styles = {
@@ -14,11 +14,11 @@ function Button() {
    
     }
     const handleClick = () => {
-        navigate("/testPage");
+        navigate(route);
       };
 
 return (
-    <button style={styles} onClick={handleClick} >Click me</button>
+    <button style={styles} onClick={handleClick} >{buttonName}</button>
 );
 }
 
