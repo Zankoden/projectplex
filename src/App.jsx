@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Button from './TestButton'
 import TestPage from './TestPage'
 import TestPage2 from './TestPage2'
+import DetailsPage from './DetailsPage'
 
 import './App.css'
 
@@ -25,6 +26,7 @@ function App() {
         />
         <Route path='/testPage' element={<><TestPage /></>} />
         <Route path='/testPage2' element={<><TestPage2 /></>} />
+        <Route path='/detailsPage' element={<><DetailsPage /></>} />
       </Routes>
     </Router>
   )
