@@ -26,7 +26,7 @@ function App() {
         />
         <Route path='/testPage' element={<><TestPage /></>} />
         <Route path='/testPage2' element={<><TestPage2 /></>} />
-        <Route path='/detailsPage' element={<><DetailsPage /></>} />
+        <Route path="/detailsPage/:id" element={<DetailsPage />} /> {/* Route with parameter */}
       </Routes>
     </Router>
   )

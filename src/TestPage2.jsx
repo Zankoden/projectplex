@@ -1,16 +1,22 @@
 import Card from "./Card"
+import cardContent from "./assets/cardContent.json";
 
-function TestPage2(){
-    return(
+function TestPage2() {
+    return (
         <>
-        <h2>You are now at test page 2!!</h2>
+            <h2>You are now at test page 2!!</h2>
 
-        <Card cardName="Card 1"></Card>
-        <Card cardName="Card 2"></Card>
-        <Card cardName="Card 3"></Card>
-        <Card cardName="Card 4"></Card>
-        <Card cardName="Card 5"></Card>
-
+            {cardContent.map((card) => (
+                <Card
+                    key={card.id}
+                    id={card.id}
+                    cardImage={card.cardImage}
+                    cardTitle={card.cardTitle}
+                    cardDescription={card.cardDescription}
+                    link={card.link}
+                />
+            ))}
+            
         </>
     )
 }
