@@ -6,6 +6,9 @@ function DetailsPage() {
     const { id } = useParams();
     const mainCard = cardContent.find((card) => card.id === id);
 
+    // Filter out the main card from other content
+    const otherCards = cardContent.filter((card) => card.id !== id);
+
     return (
         <>
             <h2>This is the details page!</h2>
@@ -27,7 +30,7 @@ function DetailsPage() {
                 <div className="divider"></div>
                 <div className="sidebar-column">
                     <p>Other Contents</p>
-                    {cardContent.map((card) => (
+                    {otherCards.map((card) => (
                         <Card
                             key={card.id}
                             id={card.id}
