@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "cardImage": "https://example.com/image1.jpg",
+        "cardTitle": "Card Title 1",
+        "cardDescription": "Description for card 1",
+        "link": "https://example.com/link1"
+    },
+    {
+        "id": "2",
+        "cardImage": "https://example.com/image2.jpg",
+        "cardTitle": "Card Title 2",
+        "cardDescription": "Description for card 2",
+        "link": "https://example.com/link2"
+    },
+    {
+        "id": "3",
+        "cardImage": "https://example.com/image3.jpg",
+        "cardTitle": "Card Title 3",
+        "cardDescription": "Description for card 3",
+        "link": "https://example.com/link3"
+    },
+    {
+        "id": "4",
+        "cardImage": "https://example.com/image4.jpg",
+        "cardTitle": "Card Title 4",
+        "cardDescription": "Description for card 4",
+        "link": "https://example.com/link4"
+    },
+    {
+        "id": "5",
+        "cardImage": "https://example.com/image5.jpg",
+        "cardTitle": "Card Title 5",
+        "cardDescription": "Description for card 5",
+        "link": "https://example.com/link5"
+    },
+    {
+        "id": "6",
+        "cardImage": "https://example.com/image6.jpg",
+        "cardTitle": "Card Title 6",
+        "cardDescription": "Description for card 6",
+        "link": "https://example.com/link6"
+    },
+    {
+        "id": "7",
+        "cardImage": "https://example.com/image7.jpg",
+        "cardTitle": "Card Title 7",
+        "cardDescription": "Description for card 7",
+        "link": "https://example.com/link7"
+    },
+    {
+        "id": "8",
+        "cardImage": "https://example.com/image8.jpg",
+        "cardTitle": "Card Title 8",
+        "cardDescription": "Description for card 8",
+        "link": "https://example.com/link8"
+    },
+    {
+        "id": "9",
+        "cardImage": "https://example.com/image9.jpg",
+        "cardTitle": "Card Title 9",
+        "cardDescription": "Description for card 9",
+        "link": "https://example.com/link9"
+    },
+    {
+        "id": "10",
+        "cardImage": "https://example.com/image10.jpg",
+        "cardTitle": "Card Title 10",
+        "cardDescription": "Description for card 10",
+        "link": "https://example.com/link10"
+    }
+]

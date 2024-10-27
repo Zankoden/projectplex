@@ -18,7 +18,7 @@
 
 .card .card-image {
   max-width: 100%;
-  height: auto;  
+  height: auto;
   margin-bottom: 10px;
 }
 
@@ -26,4 +26,48 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   color: hsla(0, 10%, 84%, 0.604);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row; /* Stack main card on top of sidebar */
+  align-items: flex-start; /* Aligns the main card to the left */
+  gap: 1rem; /* Space between the main card and the sidebar */
+  position: relative; 
+}
+
+.main-card {
+  width: 100%; /* Full width for the main card */
+}
+
+.sidebar-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align cards in the sidebar to the right */
+  gap: 1rem; /* Space between sidebar cards */
+}
+
+.divider {
+  width: 1px; /* Thin line */
+  background-color: #ccc; /* Color of the divider */
+  margin: 0 1rem; /* Space on left and right */
+  height: 100%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .main-container {
+    flex-direction: column; /* Stack main content and sidebar in a column */
+    align-items: center; /* Center align the items */
+  }
+
+  .sidebar-column {
+    align-items: center; /* Center align cards when stacked in column layout */
+  }
+
+  .divider {
+    width: 80%; /* Width of the divider when stacked vertically */
+    height: 1px; /* Horizontal line for smaller screens */
+    margin: 1rem 0; /* Space above and below */
+  }
 }
