@@ -7,10 +7,10 @@ export default defineConfig({
   //   build: {
   //       outDir: 'dist'
   //   },
-  base: '/projectplex',  // Add this line to set the base path
+  
+  plugins: [react()],
+  base: '/projectplex/',  // Add this line to set the base path
     build: {
         outDir: 'dist'
     },
-  plugins: [react()],
-  
 })
