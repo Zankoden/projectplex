@@ -7,7 +7,10 @@ export default defineConfig({
   //   build: {
   //       outDir: 'dist'
   //   },
-    
+  base: '/',  // Add this line to set the base path
+    build: {
+        outDir: 'dist'
+    },
   plugins: [react()],
   
 })
